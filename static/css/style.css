@@ -1,0 +1,54 @@
+html{
+	width: 97%;
+	height: 100%;
+}
+a{
+	color: black;
+}
+input{
+	width: 60%;
+}
+#billboard{
+	margin-left: 20px;
+	margin-top: 5px;
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+#new_ad{
+	float:left;
+	width: 30%;
+	align-content: center;
+}
+.header_text{
+	text-align: center;
+	padding: 2px;
+	clear: both;
+}
+.ad{
+	background: #f0f0f0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 15px; /* Поля вокруг текста */
+    margin-bottom: 10px; /* Отступ снизу */
+    margin-left: 8px;
+    margin-right: 8px;
+	border-radius: 8px;
+	float: left;
+	width: 15%;
+	height: 180px;
+	align-content: center;
+	text-align: center;
+}
+.ad_header{
+	width: 90%;
+	height: 50px;
+}
+.ad_text{
+	width: 90%;
+	height: 100px;
+	text-align: left;;
+}
+.ad_label{
+	height: 20px;
+	width: 90%;
+}

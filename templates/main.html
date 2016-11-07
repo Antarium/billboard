@@ -1,0 +1,64 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+    <title>Тестовое задание</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!--Load styles -->
+    <link rel="stylesheet" type="text/css" href= {% static "css/style.css"%}>
+</head> 
+
+<body>
+    <div id="billboard">
+        <div class="header_text">
+            <h2>Доска объявлений</h2>
+        </div>
+        <a href="current/3/"><div class="ad">
+            <div class="ad_header"> Its Header</div>
+            <div class="ad_text"> Text dlkfj dfkjs sdl;fksjdsfndksjfdskfl;dsjfnj sdjfsdlf</div>
+            <div class="ad_label">Просмотров: 8</div>
+        </div></a>
+        <a href="current/3/"><div class="ad">
+            <div class="ad_header"> Its Header</div>
+            <div class="ad_text"> Text dlkfj dfkjs sdl;fksjdsfskfl;dsjfnj sdjfsdlf</div>
+            <div class="ad_label">Просмотров: 8</div>
+        </div></a>
+        <a href="current/3/"><div class="ad">
+            <div class="ad_header"> Its Header</div>
+            <div class="ad_text"> Text dlkfj dfkjs sdl;fksjdsfddsjfnj sdjfsdlf</div>
+            <div class="ad_label">Просмотров: 8</div>
+        </div></a>
+        <a href="current/3/"><div class="ad">
+            <div class="ad_header"> Its Header</div>
+            <div class="ad_text"> Text dlkfj dfkjs sdl;fksjdsfkdsjfdsjfnj sdjfsdlf</div>
+            <div class="ad_label">Просмотров: 8</div>
+        </div></a>
+        <a href="current/3/"><div class="ad">
+            <div class="ad_header"> Its Header</div>
+            <div class="ad_text"> Text dlkfj dfkjs sdl;fksjddskfl;dsjfnj sdjfsdlf</div>
+            <div class="ad_label">Просмотров: 8</div>
+        </div></a>
+        <a href="current/3/"><div class="ad">
+            <div class="ad_header"> Its Header</div>
+            <div class="ad_text"> Text dlkfj dfkjs sdl;fksjddskfl;dsjfnj sdjfsdlf</div>
+            <div class="ad_label">Просмотров: 8</div>
+        </div></a>
+        <a href="current/3/"><div class="ad">
+            <div class="ad_header"> Its Header</div>
+            <div class="ad_text"> Text dlkfj dfkjs sdl;fksjddskfl;dsjfnj sdjfsdlf</div>
+            <div class="ad_label">Просмотров: 8</div>
+        </div></a>
+    </div>
+    <div id="new_ad">
+        <div class="header_text">
+            <h2>Добавить новое объявление</h2>
+        </div>
+        <form method="POST" action="new/">
+            Заголовок объявления :   <input type="text" name="caption" title="Заголовок новости">
+            Содержание объявления: <input type="text" name="caption" title="Заголовок новости">
+            <input type="submit" name="send" value="разместить объявление">
+        </form>
+    </div>
+</body>
+</html>
