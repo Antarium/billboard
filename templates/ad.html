@@ -1,0 +1,20 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+    <title>Тестовое задание</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!--Load styles -->
+    <link rel="stylesheet" type="text/css" href= {% static "css/style.css"%}>
+</head> 
+
+<body>
+    <div id="billboard">
+        <a href="/">Вернуться на доску объявлений</a>
+        <h3>{{current_ad.ad_header}}</h3>
+        <h4>{{current_ad.ad_preview}}</h5>
+        <p>{{current_ad.ad_content}}</p>
+    </div>
+</body>
+</html>
